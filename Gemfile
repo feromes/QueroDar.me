@@ -36,4 +36,5 @@ group :test do
   gem "factory_girl_rails"
   gem "capybara"
   gem "guard-rspec"
+  gem "shoulda-matchers"
 end
