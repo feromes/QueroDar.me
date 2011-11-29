@@ -1,2 +1,3 @@
-class Categoria < ActiveRecord::Base      
+class Categoria < ActiveRecord::Base
+  validates :nome, :presence => true
 end
