@@ -1,2 +1,2 @@
-class Categoria < ActiveRecord::Base
+class Categoria < ActiveRecord::Base      
 end

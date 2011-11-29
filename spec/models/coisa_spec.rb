@@ -1,5 +1,6 @@
 require 'spec_helper'
 
 describe Coisa do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it { should validate_presence_of(:titulo) }
+  it { should validate_presence_of(:descricao) }
 end
