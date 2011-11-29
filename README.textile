@@ -1,0 +1,54 @@
+h1. Bemvindo ao querodar.me
+
+QueroDar.me surgiu da idéia de doar meus livros de informática antigos. Normalmente os 'Sebos' não dão o devido valor a ele e através da comunidade é possível achar pessoas interessadas em estudar e repassa-los.
+
+O fato é que fazer só para meus livros não dá, tb tenho um iphone que não funciona Wifi, tenho um tradutor de Inglês que ganhei do meu pai em 1992 e tem algumas outras pessoas que podem se interessar por um site onde é possível oferecer as coisas para dar sem esperar nada em troca, além de uma consciência ecológica de dever cumprido.
+
+h2. Por onde começar
+
+Resolvi começar do começo:
+
+<pre>rails new querodar.me
+git init
+git add .
+git commit -m "My first commit"</pre>
+
+h2. Próximos passos
+
+Precisamos de um mínimo de funcionalidade para o sistema ir para o ar como Beta, que são as seguintes coisas
+
+h3. O mínimo para começar   
+
+* O Usuário deve cadastrar sua _coisa_ para dar
+* Usuários devem poder listas as _coisas_ que estão sendo dadas
+* O Usuários que se interessa pela coisa do outro faz perguntas e recebe respostas
+* O usuário que quer a _coisa_ do outro solicita a retirada da _coisa_
+* O usuário que deu a _coisa_ dá o processo como terminado
+
+h3. Regras do negócio
+
+O Tipo da _coisa_ que aqui pode ser _qualquer coisa_ deve ser um tipo único para a _coisa_ a ser dada, _um livro, um brinquedo, uma roupa, ou ainda roupas, livros, etc_
+A partir do momento que a _coisa_ tem um _tipo_ que podemos chamar de categoria, ela deve ter um _titulo_, _uma breve descrição_ e a localização de onde está.
+O usuário que está dando a _coisa_ deve dar o processo como finalizado somente do momento em que a _coisa_ é retirada, pois dependendo da demora ele poderá reverter o processo  
+
+h2. Nossa caixa de ferramentas
+
+Essa parte eu gosto, vamos pegar as ferramentas que vamos utilizar nesse projeto
+
+* Rails, com certeza, porque ninguém quer dar muita coisa e não vamos ter que escalar mesmo, certo?
+* Devise para autenticação
+* Bootstrap porque eu odeio design
+* Rspec, Sholda, Capyabra e Factory Girl, porque uma vez ouvi falar que é bom testar.
+
+h2. Pretenções
+
+Pretendo doar meus livros e escrever um bom código. Depois disso algumas idéias com certeza virão, como por exemplo
+
+* Deixar esse código open source e o site atualizado com as versões mais recentes daqui;
+* Ser uma boa possibilidade de serviço para quem quer doar suas coisas;
+* Ser um modelo de arquitetura e informação distribuída;
+
+h2. Coloque seu nome aqui
+
+Contribua aqui! 
+Nem que seja dando coisas que vc não usa mais
