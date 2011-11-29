@@ -1,0 +1,27 @@
+<h1>Listing coisas</h1>
+
+<table>
+  <tr>
+    <th>Titulo</th>
+    <th>Descricao</th>
+    <th>Categoria</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @coisas.each do |coisa| %>
+  <tr>
+    <td><%= coisa.titulo %></td>
+    <td><%= coisa.descricao %></td>
+    <td><%= coisa.categoria %></td>
+    <td><%= link_to 'Show', coisa %></td>
+    <td><%= link_to 'Edit', edit_coisa_path(coisa) %></td>
+    <td><%= link_to 'Destroy', coisa, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Coisa', new_coisa_path %>
