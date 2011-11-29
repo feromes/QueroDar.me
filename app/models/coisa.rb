@@ -1,4 +1,4 @@
 class Coisa < ActiveRecord::Base
   belongs_to :categoria 
-  validate :titulo, :descricao, :presence => true
+  validates_presence_of [:titulo, :descricao]
 end
