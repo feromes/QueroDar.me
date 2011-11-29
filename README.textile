@@ -39,6 +39,7 @@ Essa parte eu gosto, vamos pegar as ferramentas que vamos utilizar nesse projeto
 * Devise para autenticação
 * Bootstrap porque eu odeio design
 * Rspec, Sholda, Capyabra e Factory Girl, porque uma vez ouvi falar que é bom testar.
+* Carrierwave para subir a(s) imagem(s) da(s) _coisa(s)_
 
 h2. Pretenções
 
